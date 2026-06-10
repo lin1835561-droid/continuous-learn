@@ -21,12 +21,20 @@ continuous-learn 三个 Hook 静默运行，自动采集 → 分析 → 汇报�
 
 ### Windows
 ```powershell
+# 国内用户（ghproxy 加速）
 irm https://raw.ghproxy.com/lin1835561-droid/continuous-learn/main/install.ps1 | iex
+
+# 国际用户（直连 GitHub）
+irm https://raw.githubusercontent.com/lin1835561-droid/continuous-learn/main/install.ps1 | iex
 ```
 
 ### macOS / Linux
 ```bash
+# 国内用户（ghproxy 加速）
 curl -fsSL https://raw.ghproxy.com/lin1835561-droid/continuous-learn/main/install.sh | bash
+
+# 国际用户（直连 GitHub）
+curl -fsSL https://raw.githubusercontent.com/lin1835561-droid/continuous-learn/main/install.sh | bash
 ```
 
 **安装完成。** 没有下一步。下次会话开始时，它自己会来找你。

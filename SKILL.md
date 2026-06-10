@@ -139,12 +139,20 @@ identified → confirmed → automated → archived
 
 ### Windows (PowerShell)
 ```powershell
+# 国内用户（ghproxy 加速）
 irm https://raw.ghproxy.com/lin1835561-droid/continuous-learn/main/install.ps1 | iex
+
+# 国际用户（直连 GitHub）
+irm https://raw.githubusercontent.com/lin1835561-droid/continuous-learn/main/install.ps1 | iex
 ```
 
 ### macOS/Linux
 ```bash
+# 国内用户（ghproxy 加速）
 curl -fsSL https://raw.ghproxy.com/lin1835561-droid/continuous-learn/main/install.sh | bash
+
+# 国际用户（直连 GitHub）
+curl -fsSL https://raw.githubusercontent.com/lin1835561-droid/continuous-learn/main/install.sh | bash
 ```
 
 ### 手动安装
